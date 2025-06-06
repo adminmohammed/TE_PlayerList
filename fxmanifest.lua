@@ -23,6 +23,7 @@ server_scripts {
 "@mysql-async/lib/MySQL.lua",
 '@vrp/lib/utils.lua',
 "Files/ServerSide.lua",
+"Files/Server.lua"
 }
 
 ui_page_preload 'yes'
@@ -31,13 +32,3 @@ ui_page 'FrontEnd/index.html'
 files {
   'FrontEnd/*',
 }
-
-
-
-
-
-
-
-
-
-
