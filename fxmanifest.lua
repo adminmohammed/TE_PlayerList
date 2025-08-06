@@ -30,7 +30,10 @@ server_scripts {
 
 }
 
-shared_scripts {"Config.lua"}
+shared_scripts { 
+    
+    "Config.lua"
+}
 
 ui_page_preload 'yes'
 
